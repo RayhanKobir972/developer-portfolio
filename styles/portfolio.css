@@ -44,11 +44,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -81,6 +82,8 @@ nav a {
 
 .banner .profile-pic {
     width: 585px;
+    /* margin-left: 200px; */
+    padding: 0px;
 }
 
 .banner-greeting {
@@ -179,7 +182,7 @@ main section {
 }
 
 .resume-container hr {
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 .download-cv {
@@ -187,13 +190,25 @@ main section {
     margin-top: 50px;
 }
 
-.input {
+.input{
+    border: 0;
     border-radius: 5px;
-    background: var(--white-color, #FFF);
+    background:  #FFF;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    width: 100%;
 }
 footer{
     margin-top: 113px;
     background: #FFF8F3;
     display: flex;
     padding: 130px 200px;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.footer-column{
+    width: 50%;
+    margin-right: 120px;
 }
